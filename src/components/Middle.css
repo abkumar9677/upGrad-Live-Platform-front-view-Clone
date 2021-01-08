@@ -21,3 +21,18 @@
   border-radius: 20px;
   box-shadow: 1px 10px 15px -5px rgb(0, 0, 0);
 }
+.head {
+  text-align: center;
+  padding-top: 1.5em;
+  font-weight: 600;
+  color: rgb(236, 222, 222);
+}
+hr{
+  color:whitesmoke;
+  background-color: whitesmoke;
+  width: 80%;
+  opacity:0.2;
+}
+ul {
+  color: whitesmoke;
+}
