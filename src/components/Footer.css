@@ -1,7 +1,26 @@
 .footer {
-  background-color: #070932;
+  background-color: #052759;
   color: red;
   font-weight: 900;
-  height: 65px;
+  font-size: 1.5em;
+  height: 75px;
   box-shadow: 0px 0.4px 6px -1px black inset;
+  text-shadow: 0.5px 0.1px 10px white;
+  transform: translate(0px, -15px);
+}
+.btn {
+  float: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 1033px;
+  color: white;
+  background-color: red;
+  border-style: none;
+  border-radius: 10px;
+  transform: translate(-90px, -420px);
+}
+.btn:hover {
+  background-color: #ec4635;
 }

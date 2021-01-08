@@ -30,7 +30,7 @@ class App extends Component {
           </span>
         </div>
         <Middle />
-        <Footer />
+        <Footer value="Live"/>
       </fragment>
     );
   }

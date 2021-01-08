@@ -1,18 +1,17 @@
-import React,{Component} from 'react';
+import React, { Component } from "react";
 import "./Middle.css";
 // import ReactDOM from "react-dom";
 class Middle extends Component {
-  render(){
-    return(
-      <fragment><br/>
+  render() {
+    return (
+      <fragment>
+        <br />
         <div className="mid-screen">
-          <div className="agenda">
-            
-          </div>
+          <div className="agenda" />
+          <div className="agenda2" style={{ float: "right" }} />
         </div>
       </fragment>
-    )
+    );
   }
-
 }
 export default Middle;
