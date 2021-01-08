@@ -4,3 +4,15 @@
   font-weight: 900;
   padding: 1.2em;
 }
+.time-slot {
+  text-align: center;
+  margin-top: -40px;
+  font-size: 1.3em;
+}
+.clock{
+  color: blue;
+  font-size: 1.3em;
+}
+.help{
+  color: whitesmoke;
+}
