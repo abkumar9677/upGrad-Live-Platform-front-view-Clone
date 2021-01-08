@@ -1,9 +1,9 @@
-.mid-screen {
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  color: whitesmoke;
-}
 .agenda {
   background-color: #052759;
+}
+.mid-screen {
+  margin: -4px 35px 0px 35px;
+  height: 600px;
+  background-color: #070932;
+  box-shadow: 0px 15px 15px -8px rgba(0, 0, 0) inset;
 }

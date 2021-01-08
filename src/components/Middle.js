@@ -4,7 +4,7 @@ import "./Middle.css";
 class Middle extends Component {
   render(){
     return(
-      <fragment>
+      <fragment><br/>
         <div className="mid-screen">
           <div className="agenda">
             

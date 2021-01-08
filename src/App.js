@@ -3,6 +3,7 @@ import "./style.css";
 // import ReactDOM from "react-dom";
 import Heading from "./components/Header.js";
 import Middle from "./components/Middle.js";
+import Footer from "./components/footer.js";
 
 // export default function App() {
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
           </span>
         </div>
         <Middle />
+        <Footer />
       </fragment>
     );
   }

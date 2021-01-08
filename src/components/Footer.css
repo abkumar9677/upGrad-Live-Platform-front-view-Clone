@@ -1,0 +1,7 @@
+.footer {
+  background-color: #070932;
+  color: red;
+  font-weight: 900;
+  height: 65px;
+  box-shadow: 0px 0.4px 6px -1px black inset;
+}

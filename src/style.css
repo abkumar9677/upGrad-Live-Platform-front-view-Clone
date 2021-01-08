@@ -5,7 +5,7 @@ p {
 body {
   margin: 0;
   padding: 0;
-  background-color: #052759;
+  background-color: #8387dc;
   box-sizing: border-box;
 }
 .time {
@@ -25,4 +25,7 @@ body {
   padding: 0.6em;
   border-radius: 5px;
   margin-right: 5px;
+}
+.leave:hover {
+  background-color: #ec4635;
 }
