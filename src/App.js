@@ -23,15 +23,12 @@ class App extends Component {
           <span className="time"> {this.state.currentTime}</span>
           <span className="help">
             <span>
-              Help <i class="fa fa-headphones head" aria-hidden="true" />{" "}
+              Help <i className="fa fa-headphones head" aria-hidden="true" />{" "}
             </span>
             <button className="leave">Leave</button>
           </span>
         </div>
-        <Middle/>
-
-
-
+        <Middle />
       </fragment>
     );
   }
