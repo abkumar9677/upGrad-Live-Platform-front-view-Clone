@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./style.css";
-import { render } from "react-dom";
+// import ReactDOM from "react-dom";
 import Heading from "./components/Header.js";
+import Middle from "./components/Middle.js";
 
 // export default function App() {
 class App extends Component {
@@ -20,10 +21,17 @@ class App extends Component {
         <div className="time-slot">
           <i className="fa fa-clock-o clock" aria-hidden="true" />
           <span className="time"> {this.state.currentTime}</span>
-          <span className="help"><span>Help <i class="fa fa-headphones head" aria-hidden="true"></i> </span>          
-          <button className="leave">Leave</button>
+          <span className="help">
+            <span>
+              Help <i class="fa fa-headphones head" aria-hidden="true" />{" "}
+            </span>
+            <button className="leave">Leave</button>
           </span>
         </div>
+        <Middle/>
+
+
+
       </fragment>
     );
   }
